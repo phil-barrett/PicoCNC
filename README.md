@@ -1,6 +1,9 @@
 # PicoCNC
 
-This is a breakout board that, along with grblHAL and a Rapsberry Pi Pico microcontroller, creates a powerful CNC motion controller for devices like routers, mills, lasers and lathes.  Using grblHAL, it forms the basis of a motion control system with advanced features.
+A breakout board that, along with grblHAL and a Rapsberry Pi Pico microcontroller, creates a powerful CNC motion controller for devices like routers, mills, lasers and lathes.  Using grblHAL, it forms the basis of a motion control system with advanced features.
+
+
+![PicoCNC](https://github.com/phil-barrett/PicoCNC/blob/main/PicoCNC.jpg "PicoCNC")
 
 Key features of the PicoCNC board.
 * Supports up to 4 Axes via Screw Terminal and Pin Header.
@@ -31,3 +34,6 @@ Key features of the PicoCNC board.
 * Open collector outputs allow adding pull-up resistors on the board.
 * Expansion headers for I2C, SPI and UART.  UART 3.3V/5V translation supported.
 * Powered by open source software - grblHAL.
+
+Available to oder on Tindie soon!
+
