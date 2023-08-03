@@ -1,5 +1,7 @@
 # PicoCNC
 
+[Available on Tindie.](https://www.tindie.com/products/philba/picocnc/)
+
 A breakout board that, along with grblHAL and a Rapsberry Pi Pico microcontroller, creates a powerful CNC motion controller for devices like routers, mills, lasers and lathes.  Using grblHAL, it forms the basis of a motion control system with advanced features.
 
 
