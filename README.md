@@ -36,8 +36,6 @@ Key features of the PicoCNC board.
 * Open collector outputs allow adding pull-up resistors on the board.
 * Expansion headers for I2C, SPI and UART.  UART 3.3V/5V translation supported.
 * Powered by open source software - grblHAL.
-* Expansion headers for I2C, SPI and UART.  UART 3.3V/5V translation supported.
-* Powered by open source software - grblHAL.
 
 Available to order on Tindie soon!
 
