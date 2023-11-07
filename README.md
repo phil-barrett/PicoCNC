@@ -4,6 +4,8 @@
 
 A breakout board that, along with grblHAL and a Rapsberry Pi Pico microcontroller, creates a powerful CNC motion controller for devices like routers, mills, lasers and lathes.  Using grblHAL, it forms the basis of a motion control system with advanced features.
 
+[System builder's Resources](https://www.grbl.org/resources)
+
 
 ![PicoCNC](https://github.com/phil-barrett/PicoCNC/blob/main/PicoCNC.jpg "PicoCNC")
 
