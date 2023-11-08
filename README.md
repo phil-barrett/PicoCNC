@@ -28,7 +28,7 @@ Key features of the PicoCNC board.
 * Isolated standard Grbl input controls: Cycle Start, Feed Hold, EStop and Safety Door.​ Opto-Isolated.
 * Opto-Isolated Probe input.
 * Supports both Pico and Pico W.
-* Comunicationa.
+* Comunications.
   - USB (via Pico and Pico W)
   - WiFi (via Pico W)
   - Ethernet (via Wiz850io Ethernet Module)
