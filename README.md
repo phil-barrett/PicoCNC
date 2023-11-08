@@ -28,7 +28,10 @@ Key features of the PicoCNC board.
 * Isolated standard Grbl input controls: Cycle Start, Feed Hold, EStop and Safety Door.​ Opto-Isolated.
 * Opto-Isolated Probe input.
 * Supports both Pico and Pico W.
-* USB and WiFi (with Pico W) connection support.
+* Comunicationa.
+  - USB (via Pico and Pico W)
+  - WiFi (via Pico W)
+  - Ethernet (via Wiz850io Ethernet Module)
 * Micro SD Card socket.  Allows storage of GCode programs.  GCode programs may be run from the SD Card.
 * Dust Collection support.
   - Dust Collection relay and TTL output ganged to Spindle. 
