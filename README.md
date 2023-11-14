@@ -6,6 +6,7 @@ A breakout board that, along with grblHAL and a Rapsberry Pi Pico microcontrolle
 
 [System builder's Resources](https://www.grbl.org/resources)
 
+[User Manual](https://github.com/phil-barrett/PicoCNC/blob/main/PicoCNC%20User%20Manual.pdf)
 
 ![PicoCNC](https://github.com/phil-barrett/PicoCNC/blob/main/PicoCNC.jpg "PicoCNC")
 
