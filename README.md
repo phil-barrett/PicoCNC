@@ -8,7 +8,7 @@ A breakout board that, along with grblHAL and a Rapsberry Pi Pico microcontrolle
 
 [User Manual](https://github.com/phil-barrett/PicoCNC/blob/main/PicoCNC%20User%20Manual.pdf)
 
-![PicoCNC](https://github.com/phil-barrett/PicoCNC/blob/main/PicoCNC.jpg "PicoCNC")
+![PicoCNC](https://github.com/phil-barrett/PicoCNC/blob/main/PicoCNC%20V1.53eth%20cropped.jpg "PicoCNC")
 
 Key features of the PicoCNC board.
 * Supports up to 4 Axes via Screw Terminal and Pin Header.
