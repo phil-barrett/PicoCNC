@@ -1,6 +1,10 @@
 # PicoCNC
 
-[Available on Tindie.](https://www.tindie.com/products/philba/picocnc/)
+## Now fully open source
+I have released the full design files under the MIT open source license. Please post your usage and derivations in the [Discussions Section](https://github.com/phil-barrett/PicoCNC/discussions).
+
+## older readme.
+No longer available for purchase.
 
 A breakout board that, along with grblHAL and a Rapsberry Pi Pico microcontroller, creates a powerful CNC motion controller for devices like routers, mills, lasers and lathes.  Using grblHAL, it forms the basis of a motion control system with advanced features.
 
