@@ -1,7 +1,7 @@
 # PicoCNC
 
 ## Now fully open source
-I have released the full design files under the MIT open source license. Please post your usage and derivations in the [Discussions Section](https://github.com/phil-barrett/PicoCNC/discussions).
+I have released the full V1.55eth design files under the MIT open source license. Please post your usage and derivations in the [Discussions Section](https://github.com/phil-barrett/PicoCNC/discussions).
 
 ## older readme.
 No longer available for purchase.
