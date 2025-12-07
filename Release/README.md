@@ -1,4 +1,4 @@
-##MIT License release of PicoCNC design files.
+## MIT License release of PicoCNC design files.
 
 Copyright (c) 2023, 2025 Phillip L. Barrett
 
