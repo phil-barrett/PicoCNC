@@ -1,0 +1,3212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\Documents\kicad\PicoU4XBB\v1.52-eth\picoCNC.kicad_sch</source>
+    <date>8/2/2023 12:15:04 AM</date>
+    <tool>Eeschema (6.0.7)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>picoCNC </title>
+        <company>Brookwood Design</company>
+        <rev>Ver 1.52</rev>
+        <date>2023-08-01</date>
+        <source>picoCNC.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/picoU4XBB_power/" tstamps="/00000000-0000-0000-0000-00006010fb27/">
+      <title_block>
+        <title>picoCNC </title>
+        <company>Brookwood Design</company>
+        <rev>Ver 1.52</rev>
+        <date>2023-08-01</date>
+        <source>picoU4XBB_power.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/">
+      <title_block>
+        <title>picoCNC </title>
+        <company>Brookwood Design</company>
+        <rev>Ver 1.52</rev>
+        <date>2023-08-01</date>
+        <source>picoU4XBB_io.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/picoU4XBB_misc/" tstamps="/00000000-0000-0000-0000-00006010fbe5/">
+      <title_block>
+        <title>picoCNC </title>
+        <company>Brookwood Design</company>
+        <rev>Ver 1.52</rev>
+        <date>2023-08-01</date>
+        <source>picoU4XBB_misc.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/PicoU4XBB_processor/" tstamps="/00000000-0000-0000-0000-00006010a2a3/">
+      <title_block>
+        <title>picoCNC </title>
+        <company>Brookwood Design</company>
+        <rev>Ver 1.52</rev>
+        <date>2023-08-01</date>
+        <source>PicoU4XBB_processor.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/picoU4XBB_spindle/" tstamps="/00000000-0000-0000-0000-00006101202c/">
+      <title_block>
+        <title>picoCNC </title>
+        <company>Brookwood Design</company>
+        <rev>Ver 1.52</rev>
+        <date>2023-08-01</date>
+        <source>PicoU4XBB_spindle.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/w5500.kicad_sch/" tstamps="/ca64fce2-3867-4b1b-bdc9-865af76de0bc/">
+      <title_block>
+        <title>picoCNC </title>
+        <company>Brookwood Design</company>
+        <rev>Ver 1.52</rev>
+        <date>2023-08-01</date>
+        <source>w5500.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:CP_Elec_4x5.3</footprint>
+      <fields>
+        <field name="LCSC">C72484</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="LCSC" value="C72484"/>
+      <property name="Sheetname" value="picoU4XBB_power"/>
+      <property name="Sheetfile" value="picoU4XBB_power.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_power/" tstamps="/00000000-0000-0000-0000-00006010fb27/"/>
+      <tstamps>00000000-0000-0000-0000-0000609ea5f3</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:CP_Elec_4x5.3</footprint>
+      <fields>
+        <field name="LCSC">C72484</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="LCSC" value="C72484"/>
+      <property name="Sheetname" value="picoU4XBB_power"/>
+      <property name="Sheetfile" value="picoU4XBB_power.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_power/" tstamps="/00000000-0000-0000-0000-00006010fb27/"/>
+      <tstamps>00000000-0000-0000-0000-0000609eaf83</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>phils_LEDs:CHIPLED_0603</footprint>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C72043"/>
+      <property name="Sheetname" value="picoU4XBB_power"/>
+      <property name="Sheetfile" value="picoU4XBB_power.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_power/" tstamps="/00000000-0000-0000-0000-00006010fb27/"/>
+      <tstamps>00000000-0000-0000-0000-000060fcdac4</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>phils_LEDs:CHIPLED_0603</footprint>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C72043"/>
+      <property name="Sheetname" value="picoU4XBB_power"/>
+      <property name="Sheetfile" value="picoU4XBB_power.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_power/" tstamps="/00000000-0000-0000-0000-00006010fb27/"/>
+      <tstamps>00000000-0000-0000-0000-000060fcdda5</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>phils_LEDs:CHIPLED_0603</footprint>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C72043"/>
+      <property name="Sheetname" value="picoU4XBB_power"/>
+      <property name="Sheetfile" value="picoU4XBB_power.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_power/" tstamps="/00000000-0000-0000-0000-00006010fb27/"/>
+      <tstamps>00000000-0000-0000-0000-000064b8b4fe</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x03</value>
+      <footprint>phils-connectors:1X03</footprint>
+      <libsource lib="picoCNC-rescue" part="Conn_01x03-conn" description=""/>
+      <property name="Sheetname" value="picoU4XBB_power"/>
+      <property name="Sheetfile" value="picoU4XBB_power.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_power/" tstamps="/00000000-0000-0000-0000-00006010fb27/"/>
+      <tstamps>00000000-0000-0000-0000-000060ff2769</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>DMG2305UX-7</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <fields>
+        <field name="LCSC">C150470</field>
+      </fields>
+      <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
+      <property name="LCSC" value="C150470"/>
+      <property name="Sheetname" value="picoU4XBB_power"/>
+      <property name="Sheetfile" value="picoU4XBB_power.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_power/" tstamps="/00000000-0000-0000-0000-00006010fb27/"/>
+      <tstamps>00000000-0000-0000-0000-000060fc312d</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>2K7</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">C17530 </field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C17530 "/>
+      <property name="Sheetname" value="picoU4XBB_power"/>
+      <property name="Sheetfile" value="picoU4XBB_power.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_power/" tstamps="/00000000-0000-0000-0000-00006010fb27/"/>
+      <tstamps>00000000-0000-0000-0000-000060fe4574</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>2K7</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">C17530 </field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C17530 "/>
+      <property name="Sheetname" value="picoU4XBB_power"/>
+      <property name="Sheetfile" value="picoU4XBB_power.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_power/" tstamps="/00000000-0000-0000-0000-00006010fb27/"/>
+      <tstamps>00000000-0000-0000-0000-000060fe4b1b</tstamps>
+    </comp>
+    <comp ref="R49">
+      <value>1K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">C17530 </field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C17530 "/>
+      <property name="Sheetname" value="picoU4XBB_power"/>
+      <property name="Sheetfile" value="picoU4XBB_power.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_power/" tstamps="/00000000-0000-0000-0000-00006010fb27/"/>
+      <tstamps>00000000-0000-0000-0000-000064b27a9f</tstamps>
+    </comp>
+    <comp ref="TR1">
+      <value>pterm3.5-2</value>
+      <footprint>phils-connectors:T35-2-5milh</footprint>
+      <fields>
+        <field name="LCSC">C409115</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="Screw_Terminal_01x02-conn" description=""/>
+      <property name="LCSC" value="C409115"/>
+      <property name="Sheetname" value="picoU4XBB_power"/>
+      <property name="Sheetfile" value="picoU4XBB_power.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_power/" tstamps="/00000000-0000-0000-0000-00006010fb27/"/>
+      <tstamps>00000000-0000-0000-0000-00006105d93e</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>AMS1117CD-5.0</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>http://www.advanced-monolithic.com/pdf/ds1117.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C277893</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="AMS1117CD-5.0" description="1A Low Dropout regulator, positive, 5.0V fixed output, TO-252"/>
+      <property name="LCSC" value="C277893"/>
+      <property name="Sheetname" value="picoU4XBB_power"/>
+      <property name="Sheetfile" value="picoU4XBB_power.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_power/" tstamps="/00000000-0000-0000-0000-00006010fb27/"/>
+      <tstamps>00000000-0000-0000-0000-0000609e8fdf</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x04</value>
+      <footprint>phils-connectors:1X04</footprint>
+      <libsource lib="picoCNC-rescue" part="Conn_01x04-conn" description=""/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-0000601c541e</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x04</value>
+      <footprint>phils-connectors:1X04</footprint>
+      <libsource lib="picoCNC-rescue" part="Conn_01x04-conn" description=""/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-0000601c6d59</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x04</value>
+      <footprint>phils-connectors:1X04</footprint>
+      <libsource lib="picoCNC-rescue" part="Conn_01x04-conn" description=""/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-0000601c7b0f</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x04</value>
+      <footprint>phils-connectors:1X04</footprint>
+      <libsource lib="picoCNC-rescue" part="Conn_01x04-conn" description=""/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-0000601c8568</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x03</value>
+      <footprint>phils-connectors:1X03</footprint>
+      <libsource lib="picoCNC-rescue" part="Conn_01x03-conn" description=""/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-00006144607f</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>async_daughter</value>
+      <footprint>phils-modules:Serial_header_mountin_holes</footprint>
+      <libsource lib="phils-modules" part="async_daughter" description="Generic connector, single row, 01x05"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-0000611b3560</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x02</value>
+      <footprint>phils-connectors:1X02-1mm</footprint>
+      <libsource lib="picoCNC-rescue" part="Conn_01x02-conn" description=""/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000064c908b3</tstamps>
+    </comp>
+    <comp ref="J17">
+      <value>Conn_01x02</value>
+      <footprint>phils-connectors:1X02</footprint>
+      <libsource lib="picoCNC-rescue" part="Conn_01x02-conn" description=""/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000064c92555</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>JUMPER-SMT_3_NO_NO-SILK</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm</footprint>
+      <libsource lib="phils-misc" part="JUMPER-SMT_3_NO_NO-SILK" description=""/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>68d9a28e-af58-4338-bbcc-b92696fd77f0</tstamps>
+    </comp>
+    <comp ref="JP3">
+      <value>JUMPER-SMT_3_NO_NO-SILK</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm</footprint>
+      <libsource lib="phils-misc" part="JUMPER-SMT_3_NO_NO-SILK" description=""/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>61fc1bf5-7b32-4b95-add4-6852b9b29721</tstamps>
+    </comp>
+    <comp ref="M1">
+      <value>i2c_daughter</value>
+      <footprint>phils-modules:I2C_Header</footprint>
+      <libsource lib="phils-modules" part="i2c_daughter" description=""/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-00006183c921</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>BSS138</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C40912</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="BSS138-transistors" description=""/>
+      <property name="LCSC" value="C40912"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-00006144608c</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>BSS138</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C40912</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="BSS138-transistors" description=""/>
+      <property name="LCSC" value="C40912"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000061446092</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>BSS138</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C40912</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="BSS138-transistors" description=""/>
+      <property name="LCSC" value="C40912"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000060b06b5b</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="R_Small-device" description=""/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000061446099</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="R_Small-device" description=""/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-0000614460a7</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="R_Small-device" description=""/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000060b06b62</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="R_Small-device" description=""/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-0000614460a0</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="R_Small-device" description=""/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-0000614460ae</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="R_Small-device" description=""/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000060b06b69</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>2K2</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">C17520</field>
+      </fields>
+      <libsource lib="phils-misc" part="R-US_R0603-teensy_4.1x211-eagle-import" description=""/>
+      <property name="LCSC" value="C17520"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-00006017815f</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>2K2</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">C17520</field>
+      </fields>
+      <libsource lib="phils-misc" part="R-US_R0603-teensy_4.1x211-eagle-import" description=""/>
+      <property name="LCSC" value="C17520"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000060178127</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>2K2</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">C17520</field>
+      </fields>
+      <libsource lib="phils-misc" part="R-US_R0603-teensy_4.1x211-eagle-import" description=""/>
+      <property name="LCSC" value="C17520"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-00006017812e</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>2K2</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">C17520</field>
+      </fields>
+      <libsource lib="phils-misc" part="R-US_R0603-teensy_4.1x211-eagle-import" description=""/>
+      <property name="LCSC" value="C17520"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000060178135</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>2K2</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">C17520</field>
+      </fields>
+      <libsource lib="phils-misc" part="R-US_R0603-teensy_4.1x211-eagle-import" description=""/>
+      <property name="LCSC" value="C17520"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-00006017813c</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>2K2</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">C17520</field>
+      </fields>
+      <libsource lib="phils-misc" part="R-US_R0603-teensy_4.1x211-eagle-import" description=""/>
+      <property name="LCSC" value="C17520"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000060178143</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>2K2</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">C17520</field>
+      </fields>
+      <libsource lib="phils-misc" part="R-US_R0603-teensy_4.1x211-eagle-import" description=""/>
+      <property name="LCSC" value="C17520"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-00006017814a</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>2K2</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">C17520</field>
+      </fields>
+      <libsource lib="phils-misc" part="R-US_R0603-teensy_4.1x211-eagle-import" description=""/>
+      <property name="LCSC" value="C17520"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000060178151</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>2K2</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">C17520</field>
+      </fields>
+      <libsource lib="phils-misc" part="R-US_R0603-teensy_4.1x211-eagle-import" description=""/>
+      <property name="LCSC" value="C17520"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000060178158</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>DNP</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="LCSC">DNP</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="R_Small-device" description=""/>
+      <property name="LCSC" value="DNP"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000064210913</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>DNP</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="LCSC">DNP</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="R_Small-device" description=""/>
+      <property name="LCSC" value="DNP"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-00006420636f</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>DNP</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="LCSC">DNP</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="R_Small-device" description=""/>
+      <property name="LCSC" value="DNP"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-0000608d1495</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>DNP</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">C17520</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="R_Small-device" description=""/>
+      <property name="LCSC" value="C17520"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000063ea678a</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>DNP</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">C17520</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="R_Small-device" description=""/>
+      <property name="LCSC" value="C17520"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000063eb009b</tstamps>
+    </comp>
+    <comp ref="R41">
+      <value>DNP</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="LCSC">DNP</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="R_Small-device" description=""/>
+      <property name="LCSC" value="DNP"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-0000641fbde5</tstamps>
+    </comp>
+    <comp ref="R42">
+      <value>DNP</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="LCSC">DNP</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="R_Small-device" description=""/>
+      <property name="LCSC" value="DNP"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-0000641f1969</tstamps>
+    </comp>
+    <comp ref="R43">
+      <value>DNP</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="LCSC">DNP</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="R_Small-device" description=""/>
+      <property name="LCSC" value="DNP"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-0000641e74ef</tstamps>
+    </comp>
+    <comp ref="R44">
+      <value>DNP</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="LCSC">DNP</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="R_Small-device" description=""/>
+      <property name="LCSC" value="DNP"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-0000641dd065</tstamps>
+    </comp>
+    <comp ref="TR2">
+      <value>pterm3.5-2</value>
+      <footprint>phils-connectors:T35-2-5milh</footprint>
+      <fields>
+        <field name="LCSC">C409115</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="Screw_Terminal_01x02-conn" description=""/>
+      <property name="LCSC" value="C409115"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000063df8d07</tstamps>
+    </comp>
+    <comp ref="TR3">
+      <value>pterm3.5-2</value>
+      <footprint>phils-connectors:T35-2-5milh</footprint>
+      <fields>
+        <field name="LCSC">C409115</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="Screw_Terminal_01x02-conn" description=""/>
+      <property name="LCSC" value="C409115"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000063e02b53</tstamps>
+    </comp>
+    <comp ref="TR4">
+      <value>pterm3.5-2</value>
+      <footprint>phils-connectors:T35-2-5milh</footprint>
+      <fields>
+        <field name="LCSC">C409115</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="Screw_Terminal_01x02-conn" description=""/>
+      <property name="LCSC" value="C409115"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000063e800c4</tstamps>
+    </comp>
+    <comp ref="TR5">
+      <value>pterm3.5-2</value>
+      <footprint>phils-connectors:T35-2-5milh</footprint>
+      <fields>
+        <field name="LCSC">C409115</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="Screw_Terminal_01x02-conn" description=""/>
+      <property name="LCSC" value="C409115"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000063e800cb</tstamps>
+    </comp>
+    <comp ref="TR6">
+      <value>pterm3.5-2</value>
+      <footprint>phils-connectors:T35-2-5milh</footprint>
+      <fields>
+        <field name="LCSC">C409115</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="Screw_Terminal_01x02-conn" description=""/>
+      <property name="LCSC" value="C409115"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000060ea77fd</tstamps>
+    </comp>
+    <comp ref="TR7">
+      <value>pterm3.5-2</value>
+      <footprint>phils-connectors:T35-2-5milh</footprint>
+      <fields>
+        <field name="LCSC">C409115</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="Screw_Terminal_01x02-conn" description=""/>
+      <property name="LCSC" value="C409115"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000060f01b93</tstamps>
+    </comp>
+    <comp ref="TR8">
+      <value>pterm3.5-2</value>
+      <footprint>phils-connectors:T35-2-5milh</footprint>
+      <fields>
+        <field name="LCSC">C409115</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="Screw_Terminal_01x02-conn" description=""/>
+      <property name="LCSC" value="C409115"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000060e9e4b2</tstamps>
+    </comp>
+    <comp ref="TR9">
+      <value>pterm3.5-2</value>
+      <footprint>phils-connectors:T35-2-5milh</footprint>
+      <fields>
+        <field name="LCSC">C409115</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="Screw_Terminal_01x02-conn" description=""/>
+      <property name="LCSC" value="C409115"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000060ea3300</tstamps>
+    </comp>
+    <comp ref="TR10">
+      <value>pterm3.5-2</value>
+      <footprint>phils-connectors:T35-2-5milh</footprint>
+      <fields>
+        <field name="LCSC">C409115</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="Screw_Terminal_01x02-conn" description=""/>
+      <property name="LCSC" value="C409115"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000060eabdc6</tstamps>
+    </comp>
+    <comp ref="TR11">
+      <value>pterm3.5-2</value>
+      <footprint>phils-connectors:T35-2-5milh</footprint>
+      <fields>
+        <field name="LCSC">C409115</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="Screw_Terminal_01x02-conn" description=""/>
+      <property name="LCSC" value="C409115"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000060eb03db</tstamps>
+    </comp>
+    <comp ref="TR12">
+      <value>pterm3.5-2</value>
+      <footprint>phils-connectors:T35-2-5milh</footprint>
+      <fields>
+        <field name="LCSC">C409115</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="Screw_Terminal_01x02-conn" description=""/>
+      <property name="LCSC" value="C409115"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000060eb4ac0</tstamps>
+    </comp>
+    <comp ref="TR13">
+      <value>pterm3.5-2</value>
+      <footprint>phils-connectors:T35-2-5milh</footprint>
+      <fields>
+        <field name="LCSC">C409115</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="Screw_Terminal_01x02-conn" description=""/>
+      <property name="LCSC" value="C409115"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000063e8a65a</tstamps>
+    </comp>
+    <comp ref="TR14">
+      <value>pterm3.5-2</value>
+      <footprint>phils-connectors:T35-2-5milh</footprint>
+      <fields>
+        <field name="LCSC">C409115</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="Screw_Terminal_01x02-conn" description=""/>
+      <property name="LCSC" value="C409115"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000063e8a661</tstamps>
+    </comp>
+    <comp ref="TR15">
+      <value>pterm3.5-2</value>
+      <footprint>phils-connectors:T35-2-5milh</footprint>
+      <fields>
+        <field name="LCSC">C409115</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="Screw_Terminal_01x02-conn" description=""/>
+      <property name="LCSC" value="C409115"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000063e94830</tstamps>
+    </comp>
+    <comp ref="TR16">
+      <value>pterm3.5-2</value>
+      <footprint>phils-connectors:T35-2-5milh</footprint>
+      <fields>
+        <field name="LCSC">C409115</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="Screw_Terminal_01x02-conn" description=""/>
+      <property name="LCSC" value="C409115"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000063e94837</tstamps>
+    </comp>
+    <comp ref="TR17">
+      <value>pterm3.5-2</value>
+      <footprint>phils-connectors:T35-2-5milh</footprint>
+      <fields>
+        <field name="LCSC">C409115</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="Screw_Terminal_01x02-conn" description=""/>
+      <property name="LCSC" value="C409115"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000063e54ef3</tstamps>
+    </comp>
+    <comp ref="TR18">
+      <value>pterm3.5-2</value>
+      <footprint>phils-connectors:T35-2-5milh</footprint>
+      <fields>
+        <field name="LCSC">C409115</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="Screw_Terminal_01x02-conn" description=""/>
+      <property name="LCSC" value="C409115"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000063e2b99c</tstamps>
+    </comp>
+    <comp ref="TR19">
+      <value>pterm3.5-2</value>
+      <footprint>phils-connectors:T35-2-5milh</footprint>
+      <fields>
+        <field name="LCSC">C409115</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="Screw_Terminal_01x02-conn" description=""/>
+      <property name="LCSC" value="C409115"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000063e2b9a3</tstamps>
+    </comp>
+    <comp ref="TR20">
+      <value>pterm3.5-2</value>
+      <footprint>phils-connectors:T35-2-5milh</footprint>
+      <fields>
+        <field name="LCSC">C409115</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="Screw_Terminal_01x02-conn" description=""/>
+      <property name="LCSC" value="C409115"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000063e36358</tstamps>
+    </comp>
+    <comp ref="TR21">
+      <value>pterm3.5-2</value>
+      <footprint>phils-connectors:T35-2-5milh</footprint>
+      <fields>
+        <field name="LCSC">C409115</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="Screw_Terminal_01x02-conn" description=""/>
+      <property name="LCSC" value="C409115"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000063e3635f</tstamps>
+    </comp>
+    <comp ref="TR22">
+      <value>pterm3.5-2</value>
+      <footprint>phils-connectors:T35-2-5milh</footprint>
+      <fields>
+        <field name="LCSC">C409115</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="Screw_Terminal_01x02-conn" description=""/>
+      <property name="LCSC" value="C409115"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000063e40642</tstamps>
+    </comp>
+    <comp ref="TR25">
+      <value>pterm3.5-2</value>
+      <footprint>phils-connectors:T35-2-5milh</footprint>
+      <fields>
+        <field name="LCSC">C409115</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="Screw_Terminal_01x02-conn" description=""/>
+      <property name="LCSC" value="C409115"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000063e40649</tstamps>
+    </comp>
+    <comp ref="TR26">
+      <value>pterm3.5-2</value>
+      <footprint>phils-connectors:T35-2-5milh</footprint>
+      <fields>
+        <field name="LCSC">C409115</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="Screw_Terminal_01x02-conn" description=""/>
+      <property name="LCSC" value="C409115"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000063e4a920</tstamps>
+    </comp>
+    <comp ref="TR27">
+      <value>pterm3.5-2</value>
+      <footprint>phils-connectors:T35-2-5milh</footprint>
+      <fields>
+        <field name="LCSC">C409115</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="Screw_Terminal_01x02-conn" description=""/>
+      <property name="LCSC" value="C409115"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000063e4a927</tstamps>
+    </comp>
+    <comp ref="TR28">
+      <value>pterm3.5-2</value>
+      <footprint>phils-connectors:T35-2-5milh</footprint>
+      <fields>
+        <field name="LCSC">C409115</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="Screw_Terminal_01x02-conn" description=""/>
+      <property name="LCSC" value="C409115"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000063e54eec</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>EL3H7-G</value>
+      <footprint>phils-ics:EL3H7-G</footprint>
+      <fields>
+        <field name="LCSC">C92243</field>
+      </fields>
+      <libsource lib="phils-ICs" part="EL817SEL357N" description=""/>
+      <property name="LCSC" value="C92243"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-0000601781ef</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>EL3H7-G</value>
+      <footprint>phils-ics:EL3H7-G</footprint>
+      <fields>
+        <field name="LCSC">C92243</field>
+      </fields>
+      <libsource lib="phils-ICs" part="EL817SEL357N" description=""/>
+      <property name="LCSC" value="C92243"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000060178166</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>EL3H7-G</value>
+      <footprint>phils-ics:EL3H7-G</footprint>
+      <fields>
+        <field name="LCSC">C92243</field>
+      </fields>
+      <libsource lib="phils-ICs" part="EL817SEL357N" description=""/>
+      <property name="LCSC" value="C92243"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-00006017816d</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>EL3H7-G</value>
+      <footprint>phils-ics:EL3H7-G</footprint>
+      <fields>
+        <field name="LCSC">C92243</field>
+      </fields>
+      <libsource lib="phils-ICs" part="EL817SEL357N" description=""/>
+      <property name="LCSC" value="C92243"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000060178174</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>EL3H7-G</value>
+      <footprint>phils-ics:EL3H7-G</footprint>
+      <fields>
+        <field name="LCSC">C92243</field>
+      </fields>
+      <libsource lib="phils-ICs" part="EL817SEL357N" description=""/>
+      <property name="LCSC" value="C92243"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-00006017817b</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>EL3H7-G</value>
+      <footprint>phils-ics:EL3H7-G</footprint>
+      <fields>
+        <field name="LCSC">C92243</field>
+      </fields>
+      <libsource lib="phils-ICs" part="EL817SEL357N" description=""/>
+      <property name="LCSC" value="C92243"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000060178182</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>EL3H7-G</value>
+      <footprint>phils-ics:EL3H7-G</footprint>
+      <fields>
+        <field name="LCSC">C92243</field>
+      </fields>
+      <libsource lib="phils-ICs" part="EL817SEL357N" description=""/>
+      <property name="LCSC" value="C92243"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000060178189</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>EL3H7-G</value>
+      <footprint>phils-ics:EL3H7-G</footprint>
+      <fields>
+        <field name="LCSC">C92243</field>
+      </fields>
+      <libsource lib="phils-ICs" part="EL817SEL357N" description=""/>
+      <property name="LCSC" value="C92243"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000060178190</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>EL3H7-G</value>
+      <footprint>phils-ics:EL3H7-G</footprint>
+      <fields>
+        <field name="LCSC">C92243</field>
+      </fields>
+      <libsource lib="phils-ICs" part="EL817SEL357N" description=""/>
+      <property name="LCSC" value="C92243"/>
+      <property name="Sheetname" value="picoU4XBB_io"/>
+      <property name="Sheetfile" value="picoU4XBB_io.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_io/" tstamps="/00000000-0000-0000-0000-00006010fb7f/"/>
+      <tstamps>00000000-0000-0000-0000-000060178197</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="LCSC">C49678</field>
+      </fields>
+      <libsource lib="phils-misc" part="C-USC0603-teensy_4.1x211-eagle-import" description=""/>
+      <property name="LCSC" value="C49678"/>
+      <property name="Sheetname" value="picoU4XBB_misc"/>
+      <property name="Sheetfile" value="picoU4XBB_misc.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_misc/" tstamps="/00000000-0000-0000-0000-00006010fbe5/"/>
+      <tstamps>00000000-0000-0000-0000-000060fb29bf</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="LCSC">C49678</field>
+      </fields>
+      <libsource lib="phils-misc" part="C-USC0603-teensy_4.1x211-eagle-import" description=""/>
+      <property name="LCSC" value="C49678"/>
+      <property name="Sheetname" value="picoU4XBB_misc"/>
+      <property name="Sheetfile" value="picoU4XBB_misc.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_misc/" tstamps="/00000000-0000-0000-0000-00006010fbe5/"/>
+      <tstamps>00000000-0000-0000-0000-000063f54dbf</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>MicroSD-MGnd</value>
+      <footprint>phils-connectors:sdcard_sofng_c111196</footprint>
+      <fields>
+        <field name="LCSC">C111196</field>
+      </fields>
+      <libsource lib="phils-connectors" part="MicroSD-MGnd" description=""/>
+      <property name="Field4" value=""/>
+      <property name="LCSC" value="C111196"/>
+      <property name="Sheetname" value="picoU4XBB_misc"/>
+      <property name="Sheetfile" value="picoU4XBB_misc.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_misc/" tstamps="/00000000-0000-0000-0000-00006010fbe5/"/>
+      <tstamps>00000000-0000-0000-0000-000063ff4527</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_02x04_Odd_Even</value>
+      <footprint>phils-connectors:2X04</footprint>
+      <libsource lib="picoCNC-rescue" part="Conn_02x04_Odd_Even-conn" description=""/>
+      <property name="Sheetname" value="picoU4XBB_misc"/>
+      <property name="Sheetfile" value="picoU4XBB_misc.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_misc/" tstamps="/00000000-0000-0000-0000-00006010fbe5/"/>
+      <tstamps>00000000-0000-0000-0000-0000609eaf05</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>Conn_02x04_Odd_Even</value>
+      <footprint>phils-connectors:2X04</footprint>
+      <libsource lib="picoCNC-rescue" part="Conn_02x04_Odd_Even-conn" description=""/>
+      <property name="Sheetname" value="picoU4XBB_misc"/>
+      <property name="Sheetfile" value="picoU4XBB_misc.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_misc/" tstamps="/00000000-0000-0000-0000-00006010fbe5/"/>
+      <tstamps>00000000-0000-0000-0000-000060a0c9a9</tstamps>
+    </comp>
+    <comp ref="J14">
+      <value>Conn_02x04_Odd_Even</value>
+      <footprint>phils-connectors:2X04</footprint>
+      <libsource lib="picoCNC-rescue" part="Conn_02x04_Odd_Even-conn" description=""/>
+      <property name="Sheetname" value="picoU4XBB_misc"/>
+      <property name="Sheetfile" value="picoU4XBB_misc.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_misc/" tstamps="/00000000-0000-0000-0000-00006010fbe5/"/>
+      <tstamps>00000000-0000-0000-0000-000060a0da9d</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>PINHD-1X2</value>
+      <footprint>phils-connectors:1X02</footprint>
+      <fields>
+        <field name="LCSC">C358684</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="Conn_01x02-conn" description=""/>
+      <property name="LCSC" value="C358684"/>
+      <property name="Sheetname" value="picoU4XBB_misc"/>
+      <property name="Sheetfile" value="picoU4XBB_misc.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_misc/" tstamps="/00000000-0000-0000-0000-00006010fbe5/"/>
+      <tstamps>00000000-0000-0000-0000-000060fa34af</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>100K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">C149504 </field>
+      </fields>
+      <libsource lib="phils-misc" part="R-US_R0603-teensy_4.1x211-eagle-import" description=""/>
+      <property name="LCSC" value="C149504 "/>
+      <property name="Sheetname" value="picoU4XBB_misc"/>
+      <property name="Sheetfile" value="picoU4XBB_misc.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_misc/" tstamps="/00000000-0000-0000-0000-00006010fbe5/"/>
+      <tstamps>00000000-0000-0000-0000-000060fa34b6</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>2K2</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">C17520</field>
+      </fields>
+      <libsource lib="phils-misc" part="R-US_R0603-teensy_4.1x211-eagle-import" description=""/>
+      <property name="LCSC" value="C17520"/>
+      <property name="Sheetname" value="picoU4XBB_misc"/>
+      <property name="Sheetfile" value="picoU4XBB_misc.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_misc/" tstamps="/00000000-0000-0000-0000-00006010fbe5/"/>
+      <tstamps>00000000-0000-0000-0000-000060fb29b8</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>2K2</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">C17520</field>
+      </fields>
+      <libsource lib="phils-misc" part="R-US_R0603-teensy_4.1x211-eagle-import" description=""/>
+      <property name="LCSC" value="C17520"/>
+      <property name="Sheetname" value="picoU4XBB_misc"/>
+      <property name="Sheetfile" value="picoU4XBB_misc.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_misc/" tstamps="/00000000-0000-0000-0000-00006010fbe5/"/>
+      <tstamps>00000000-0000-0000-0000-000060fb29b1</tstamps>
+    </comp>
+    <comp ref="R39">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">C17477 </field>
+      </fields>
+      <libsource lib="phils-misc" part="R-US_R0603-teensy_4.1x211-eagle-import" description=""/>
+      <property name="LCSC" value="C17477 "/>
+      <property name="Sheetname" value="picoU4XBB_misc"/>
+      <property name="Sheetfile" value="picoU4XBB_misc.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_misc/" tstamps="/00000000-0000-0000-0000-00006010fbe5/"/>
+      <tstamps>00000000-0000-0000-0000-000064132d36</tstamps>
+    </comp>
+    <comp ref="R40">
+      <value>DNP</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">C17407</field>
+      </fields>
+      <libsource lib="phils-misc" part="R-US_R0603-teensy_4.1x211-eagle-import" description=""/>
+      <property name="LCSC" value="C17407"/>
+      <property name="Sheetname" value="picoU4XBB_misc"/>
+      <property name="Sheetfile" value="picoU4XBB_misc.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_misc/" tstamps="/00000000-0000-0000-0000-00006010fbe5/"/>
+      <tstamps>00000000-0000-0000-0000-00006413ac0c</tstamps>
+    </comp>
+    <comp ref="R45">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="phils-misc" part="R-US_R0603-teensy_4.1x211-eagle-import" description=""/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value="picoU4XBB_misc"/>
+      <property name="Sheetfile" value="picoU4XBB_misc.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_misc/" tstamps="/00000000-0000-0000-0000-00006010fbe5/"/>
+      <tstamps>00000000-0000-0000-0000-000063ee05fa</tstamps>
+    </comp>
+    <comp ref="R46">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="phils-misc" part="R-US_R0603-teensy_4.1x211-eagle-import" description=""/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value="picoU4XBB_misc"/>
+      <property name="Sheetfile" value="picoU4XBB_misc.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_misc/" tstamps="/00000000-0000-0000-0000-00006010fbe5/"/>
+      <tstamps>00000000-0000-0000-0000-000063eee082</tstamps>
+    </comp>
+    <comp ref="R47">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="phils-misc" part="R-US_R0603-teensy_4.1x211-eagle-import" description=""/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value="picoU4XBB_misc"/>
+      <property name="Sheetfile" value="picoU4XBB_misc.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_misc/" tstamps="/00000000-0000-0000-0000-00006010fbe5/"/>
+      <tstamps>00000000-0000-0000-0000-000063eef88c</tstamps>
+    </comp>
+    <comp ref="R48">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="phils-misc" part="R-US_R0603-teensy_4.1x211-eagle-import" description=""/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value="picoU4XBB_misc"/>
+      <property name="Sheetfile" value="picoU4XBB_misc.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_misc/" tstamps="/00000000-0000-0000-0000-00006010fbe5/"/>
+      <tstamps>00000000-0000-0000-0000-000063ef1034</tstamps>
+    </comp>
+    <comp ref="U11">
+      <value>74LVC1G32</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-353_SC-70-5</footprint>
+      <fields>
+        <field name="LCSC">C460530</field>
+      </fields>
+      <libsource lib="phils-ICs" part="74LVC1G32DBV" description=""/>
+      <property name="LCSC" value="C460530"/>
+      <property name="Sheetname" value="picoU4XBB_misc"/>
+      <property name="Sheetfile" value="picoU4XBB_misc.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_misc/" tstamps="/00000000-0000-0000-0000-00006010fbe5/"/>
+      <tstamps>00000000-0000-0000-0000-000061264999</tstamps>
+    </comp>
+    <comp ref="U12">
+      <value>ULN2003AD</value>
+      <footprint>phils-ics:SO16</footprint>
+      <fields>
+        <field name="LCSC">C7512</field>
+      </fields>
+      <libsource lib="phils-ICs" part="ULN2003AD" description=""/>
+      <property name="LCSC" value="C7512"/>
+      <property name="Sheetname" value="picoU4XBB_misc"/>
+      <property name="Sheetfile" value="picoU4XBB_misc.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_misc/" tstamps="/00000000-0000-0000-0000-00006010fbe5/"/>
+      <tstamps>00000000-0000-0000-0000-000060d9f693</tstamps>
+    </comp>
+    <comp ref="U18">
+      <value>FM24CLxxx</value>
+      <footprint>phils-ics:SO08</footprint>
+      <fields>
+        <field name="LCSC">C31082 (DNP)</field>
+      </fields>
+      <libsource lib="phils-ICs" part="FM24CLxxx" description=""/>
+      <property name="LCSC" value="C31082 (DNP)"/>
+      <property name="Sheetname" value="picoU4XBB_misc"/>
+      <property name="Sheetfile" value="picoU4XBB_misc.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_misc/" tstamps="/00000000-0000-0000-0000-00006010fbe5/"/>
+      <tstamps>00000000-0000-0000-0000-0000609738dd</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="LCSC">C49678</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="C_Small-device" description=""/>
+      <property name="LCSC" value="C49678"/>
+      <property name="Sheetname" value="PicoU4XBB_processor"/>
+      <property name="Sheetfile" value="PicoU4XBB_processor.kicad_sch"/>
+      <sheetpath names="/PicoU4XBB_processor/" tstamps="/00000000-0000-0000-0000-00006010a2a3/"/>
+      <tstamps>00000000-0000-0000-0000-000061ad114e</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="LCSC">C49678</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="C_Small-device" description=""/>
+      <property name="LCSC" value="C49678"/>
+      <property name="Sheetname" value="PicoU4XBB_processor"/>
+      <property name="Sheetfile" value="PicoU4XBB_processor.kicad_sch"/>
+      <sheetpath names="/PicoU4XBB_processor/" tstamps="/00000000-0000-0000-0000-00006010a2a3/"/>
+      <tstamps>00000000-0000-0000-0000-000061a35c6e</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="LCSC">C49678</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="C_Small-device" description=""/>
+      <property name="LCSC" value="C49678"/>
+      <property name="Sheetname" value="PicoU4XBB_processor"/>
+      <property name="Sheetfile" value="PicoU4XBB_processor.kicad_sch"/>
+      <sheetpath names="/PicoU4XBB_processor/" tstamps="/00000000-0000-0000-0000-00006010a2a3/"/>
+      <tstamps>00000000-0000-0000-0000-000061a35c3a</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="LCSC">C49678</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="C_Small-device" description=""/>
+      <property name="LCSC" value="C49678"/>
+      <property name="Sheetname" value="PicoU4XBB_processor"/>
+      <property name="Sheetfile" value="PicoU4XBB_processor.kicad_sch"/>
+      <sheetpath names="/PicoU4XBB_processor/" tstamps="/00000000-0000-0000-0000-00006010a2a3/"/>
+      <tstamps>00000000-0000-0000-0000-000061a35c5b</tstamps>
+    </comp>
+    <comp ref="J15">
+      <value>Conn_01x02</value>
+      <footprint>phils-connectors:1X02</footprint>
+      <libsource lib="picoCNC-rescue" part="Conn_01x02-conn" description=""/>
+      <property name="Sheetname" value="PicoU4XBB_processor"/>
+      <property name="Sheetfile" value="PicoU4XBB_processor.kicad_sch"/>
+      <sheetpath names="/PicoU4XBB_processor/" tstamps="/00000000-0000-0000-0000-00006010a2a3/"/>
+      <tstamps>00000000-0000-0000-0000-000060c10bdb</tstamps>
+    </comp>
+    <comp ref="JP4">
+      <value>JUMPER-SMT_3_NO_NO-SILK</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm</footprint>
+      <libsource lib="phils-misc" part="JUMPER-SMT_3_NO_NO-SILK" description=""/>
+      <property name="Sheetname" value="PicoU4XBB_processor"/>
+      <property name="Sheetfile" value="PicoU4XBB_processor.kicad_sch"/>
+      <sheetpath names="/PicoU4XBB_processor/" tstamps="/00000000-0000-0000-0000-00006010a2a3/"/>
+      <tstamps>3121affe-76d4-4b1d-a9fc-d09d65881931</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value="PicoU4XBB_processor"/>
+      <property name="Sheetfile" value="PicoU4XBB_processor.kicad_sch"/>
+      <sheetpath names="/PicoU4XBB_processor/" tstamps="/00000000-0000-0000-0000-00006010a2a3/"/>
+      <tstamps>00000000-0000-0000-0000-00006180898a</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>100</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">	C17408</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="&#x9;C17408"/>
+      <property name="Sheetname" value="PicoU4XBB_processor"/>
+      <property name="Sheetfile" value="PicoU4XBB_processor.kicad_sch"/>
+      <sheetpath names="/PicoU4XBB_processor/" tstamps="/00000000-0000-0000-0000-00006010a2a3/"/>
+      <tstamps>00000000-0000-0000-0000-000061a35bf1</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>100</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">	C17408</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="&#x9;C17408"/>
+      <property name="Sheetname" value="PicoU4XBB_processor"/>
+      <property name="Sheetfile" value="PicoU4XBB_processor.kicad_sch"/>
+      <sheetpath names="/PicoU4XBB_processor/" tstamps="/00000000-0000-0000-0000-00006010a2a3/"/>
+      <tstamps>00000000-0000-0000-0000-000061a35bf9</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>100</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">	C17408</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="&#x9;C17408"/>
+      <property name="Sheetname" value="PicoU4XBB_processor"/>
+      <property name="Sheetfile" value="PicoU4XBB_processor.kicad_sch"/>
+      <sheetpath names="/PicoU4XBB_processor/" tstamps="/00000000-0000-0000-0000-00006010a2a3/"/>
+      <tstamps>00000000-0000-0000-0000-000061a35c01</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>100</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">	C17408</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="&#x9;C17408"/>
+      <property name="Sheetname" value="PicoU4XBB_processor"/>
+      <property name="Sheetfile" value="PicoU4XBB_processor.kicad_sch"/>
+      <sheetpath names="/PicoU4XBB_processor/" tstamps="/00000000-0000-0000-0000-00006010a2a3/"/>
+      <tstamps>00000000-0000-0000-0000-00006095a28e</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>100</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">	C17408</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="&#x9;C17408"/>
+      <property name="Sheetname" value="PicoU4XBB_processor"/>
+      <property name="Sheetfile" value="PicoU4XBB_processor.kicad_sch"/>
+      <sheetpath names="/PicoU4XBB_processor/" tstamps="/00000000-0000-0000-0000-00006010a2a3/"/>
+      <tstamps>00000000-0000-0000-0000-00006095a296</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>100</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">	C17408</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="&#x9;C17408"/>
+      <property name="Sheetname" value="PicoU4XBB_processor"/>
+      <property name="Sheetfile" value="PicoU4XBB_processor.kicad_sch"/>
+      <sheetpath names="/PicoU4XBB_processor/" tstamps="/00000000-0000-0000-0000-00006010a2a3/"/>
+      <tstamps>00000000-0000-0000-0000-00006095a29e</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_SPST</value>
+      <footprint>phils-switches:TA-1088R-02026</footprint>
+      <fields>
+        <field name="LCSC">C455280</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="SW_SPST-switches" description=""/>
+      <property name="LCSC" value="C455280"/>
+      <property name="Sheetname" value="PicoU4XBB_processor"/>
+      <property name="Sheetfile" value="PicoU4XBB_processor.kicad_sch"/>
+      <sheetpath names="/PicoU4XBB_processor/" tstamps="/00000000-0000-0000-0000-00006010a2a3/"/>
+      <tstamps>00000000-0000-0000-0000-0000651cf3e3</tstamps>
+    </comp>
+    <comp ref="U13">
+      <value>Pico_no_prog</value>
+      <footprint>phils-modules:RaspBerry_PI_Pico_no_prog</footprint>
+      <libsource lib="phils-modules" part="Pico_no_prog" description=""/>
+      <property name="Sheetname" value="PicoU4XBB_processor"/>
+      <property name="Sheetfile" value="PicoU4XBB_processor.kicad_sch"/>
+      <sheetpath names="/PicoU4XBB_processor/" tstamps="/00000000-0000-0000-0000-00006010a2a3/"/>
+      <tstamps>00000000-0000-0000-0000-000061076a6a</tstamps>
+    </comp>
+    <comp ref="U14">
+      <value>74HCT595</value>
+      <footprint>phils-ics:HTSSOP-16_4.4x5mm_P0.65</footprint>
+      <fields>
+        <field name="LCSC">C460504 </field>
+      </fields>
+      <libsource lib="phils-ICs" part="74HCT595" description=""/>
+      <property name="LCSC" value="C460504 "/>
+      <property name="Sheetname" value="PicoU4XBB_processor"/>
+      <property name="Sheetfile" value="PicoU4XBB_processor.kicad_sch"/>
+      <sheetpath names="/PicoU4XBB_processor/" tstamps="/00000000-0000-0000-0000-00006010a2a3/"/>
+      <tstamps>00000000-0000-0000-0000-000061a35c4e</tstamps>
+    </comp>
+    <comp ref="U15">
+      <value>74HCT595</value>
+      <footprint>phils-ics:HTSSOP-16_4.4x5mm_P0.65</footprint>
+      <fields>
+        <field name="LCSC">C460504 </field>
+      </fields>
+      <libsource lib="phils-ICs" part="74HCT595" description=""/>
+      <property name="LCSC" value="C460504 "/>
+      <property name="Sheetname" value="PicoU4XBB_processor"/>
+      <property name="Sheetfile" value="PicoU4XBB_processor.kicad_sch"/>
+      <sheetpath names="/PicoU4XBB_processor/" tstamps="/00000000-0000-0000-0000-00006010a2a3/"/>
+      <tstamps>00000000-0000-0000-0000-000061a35ba5</tstamps>
+    </comp>
+    <comp ref="U16">
+      <value>74HCT595</value>
+      <footprint>phils-ics:HTSSOP-16_4.4x5mm_P0.65</footprint>
+      <fields>
+        <field name="LCSC">C460504 </field>
+      </fields>
+      <libsource lib="phils-ICs" part="74HCT595" description=""/>
+      <property name="LCSC" value="C460504 "/>
+      <property name="Sheetname" value="PicoU4XBB_processor"/>
+      <property name="Sheetfile" value="PicoU4XBB_processor.kicad_sch"/>
+      <sheetpath names="/PicoU4XBB_processor/" tstamps="/00000000-0000-0000-0000-00006010a2a3/"/>
+      <tstamps>00000000-0000-0000-0000-000061a35bac</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="LCSC">C28323</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="C_Small-device" description=""/>
+      <property name="LCSC" value="C28323"/>
+      <property name="Sheetname" value="picoU4XBB_spindle"/>
+      <property name="Sheetfile" value="PicoU4XBB_spindle.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_spindle/" tstamps="/00000000-0000-0000-0000-00006101202c/"/>
+      <tstamps>00000000-0000-0000-0000-0000610217de</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="LCSC">C49678</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="C_Small-device" description=""/>
+      <property name="LCSC" value="C49678"/>
+      <property name="Sheetname" value="picoU4XBB_spindle"/>
+      <property name="Sheetfile" value="PicoU4XBB_spindle.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_spindle/" tstamps="/00000000-0000-0000-0000-00006101202c/"/>
+      <tstamps>00000000-0000-0000-0000-0000610217e5</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="LCSC">C49678</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="C_Small-device" description=""/>
+      <property name="LCSC" value="C49678"/>
+      <property name="Sheetname" value="picoU4XBB_spindle"/>
+      <property name="Sheetfile" value="PicoU4XBB_spindle.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_spindle/" tstamps="/00000000-0000-0000-0000-00006101202c/"/>
+      <tstamps>00000000-0000-0000-0000-0000610217ec</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>phils_LEDs:CHIPLED_0603</footprint>
+      <fields>
+        <field name="LCSC">C72043</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C72043"/>
+      <property name="Sheetname" value="picoU4XBB_spindle"/>
+      <property name="Sheetfile" value="PicoU4XBB_spindle.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_spindle/" tstamps="/00000000-0000-0000-0000-00006101202c/"/>
+      <tstamps>00000000-0000-0000-0000-000064b4920a</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>GS2</value>
+      <footprint>Connectors:GS2</footprint>
+      <libsource lib="picoCNC-rescue" part="GS2-conn" description=""/>
+      <property name="Sheetname" value="picoU4XBB_spindle"/>
+      <property name="Sheetfile" value="PicoU4XBB_spindle.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_spindle/" tstamps="/00000000-0000-0000-0000-00006101202c/"/>
+      <tstamps>00000000-0000-0000-0000-000061021825</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>Conn_01x04</value>
+      <footprint>phils-connectors:1X04</footprint>
+      <libsource lib="picoCNC-rescue" part="Conn_01x04-conn" description=""/>
+      <property name="Sheetname" value="picoU4XBB_spindle"/>
+      <property name="Sheetfile" value="PicoU4XBB_spindle.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_spindle/" tstamps="/00000000-0000-0000-0000-00006101202c/"/>
+      <tstamps>00000000-0000-0000-0000-000061033d7e</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>MMBT3904</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C20526 </field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="MMBT3904-transistors" description=""/>
+      <property name="LCSC" value="C20526 "/>
+      <property name="Sheetname" value="picoU4XBB_spindle"/>
+      <property name="Sheetfile" value="PicoU4XBB_spindle.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_spindle/" tstamps="/00000000-0000-0000-0000-00006101202c/"/>
+      <tstamps>00000000-0000-0000-0000-000065216271</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="R_Small-device" description=""/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value="picoU4XBB_spindle"/>
+      <property name="Sheetfile" value="PicoU4XBB_spindle.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_spindle/" tstamps="/00000000-0000-0000-0000-00006101202c/"/>
+      <tstamps>00000000-0000-0000-0000-0000610217d7</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="R_Small-device" description=""/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value="picoU4XBB_spindle"/>
+      <property name="Sheetfile" value="PicoU4XBB_spindle.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_spindle/" tstamps="/00000000-0000-0000-0000-00006101202c/"/>
+      <tstamps>00000000-0000-0000-0000-0000610217c9</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="R_Small-device" description=""/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value="picoU4XBB_spindle"/>
+      <property name="Sheetfile" value="PicoU4XBB_spindle.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_spindle/" tstamps="/00000000-0000-0000-0000-00006101202c/"/>
+      <tstamps>00000000-0000-0000-0000-0000610217d0</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="R_Small-device" description=""/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value="picoU4XBB_spindle"/>
+      <property name="Sheetfile" value="PicoU4XBB_spindle.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_spindle/" tstamps="/00000000-0000-0000-0000-00006101202c/"/>
+      <tstamps>00000000-0000-0000-0000-0000610217c2</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>1K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">C17513</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="R_Small-device" description=""/>
+      <property name="LCSC" value="C17513"/>
+      <property name="Sheetname" value="picoU4XBB_spindle"/>
+      <property name="Sheetfile" value="PicoU4XBB_spindle.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_spindle/" tstamps="/00000000-0000-0000-0000-00006101202c/"/>
+      <tstamps>00000000-0000-0000-0000-0000614a38c4</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>1K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">C17513</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="R_Small-device" description=""/>
+      <property name="LCSC" value="C17513"/>
+      <property name="Sheetname" value="picoU4XBB_spindle"/>
+      <property name="Sheetfile" value="PicoU4XBB_spindle.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_spindle/" tstamps="/00000000-0000-0000-0000-00006101202c/"/>
+      <tstamps>00000000-0000-0000-0000-0000614a38cb</tstamps>
+    </comp>
+    <comp ref="R50">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">C17530 </field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C17530 "/>
+      <property name="Sheetname" value="picoU4XBB_spindle"/>
+      <property name="Sheetfile" value="PicoU4XBB_spindle.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_spindle/" tstamps="/00000000-0000-0000-0000-00006101202c/"/>
+      <tstamps>00000000-0000-0000-0000-000064b4b9ee</tstamps>
+    </comp>
+    <comp ref="R51">
+      <value>1K</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="LCSC">C17530 </field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C17530 "/>
+      <property name="Sheetname" value="picoU4XBB_spindle"/>
+      <property name="Sheetfile" value="PicoU4XBB_spindle.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_spindle/" tstamps="/00000000-0000-0000-0000-00006101202c/"/>
+      <tstamps>00000000-0000-0000-0000-000064b491fb</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>10K</value>
+      <footprint>phils-trimmers:Trimmer_generic_2.54mm</footprint>
+      <fields>
+        <field name="LCSC">C118954</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="POT_TRIM-device" description=""/>
+      <property name="LCSC" value="C118954"/>
+      <property name="Sheetname" value="picoU4XBB_spindle"/>
+      <property name="Sheetfile" value="PicoU4XBB_spindle.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_spindle/" tstamps="/00000000-0000-0000-0000-00006101202c/"/>
+      <tstamps>00000000-0000-0000-0000-0000610217bb</tstamps>
+    </comp>
+    <comp ref="TR23">
+      <value>pterm3.5-2</value>
+      <footprint>phils-connectors:T35-2-5milh</footprint>
+      <fields>
+        <field name="LCSC">C409115</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="Screw_Terminal_01x02-conn" description=""/>
+      <property name="LCSC" value="C409115"/>
+      <property name="Sheetname" value="picoU4XBB_spindle"/>
+      <property name="Sheetfile" value="PicoU4XBB_spindle.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_spindle/" tstamps="/00000000-0000-0000-0000-00006101202c/"/>
+      <tstamps>00000000-0000-0000-0000-000063eaf492</tstamps>
+    </comp>
+    <comp ref="TR24">
+      <value>pterm3.5-2</value>
+      <footprint>phils-connectors:T35-2-5milh</footprint>
+      <fields>
+        <field name="LCSC">C409115</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="Screw_Terminal_01x02-conn" description=""/>
+      <property name="LCSC" value="C409115"/>
+      <property name="Sheetname" value="picoU4XBB_spindle"/>
+      <property name="Sheetfile" value="PicoU4XBB_spindle.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_spindle/" tstamps="/00000000-0000-0000-0000-00006101202c/"/>
+      <tstamps>00000000-0000-0000-0000-000061060025</tstamps>
+    </comp>
+    <comp ref="TR29">
+      <value>pterm3.5-2</value>
+      <footprint>phils-connectors:T35-2-5milh</footprint>
+      <fields>
+        <field name="LCSC">C409115</field>
+      </fields>
+      <libsource lib="picoCNC-rescue" part="Screw_Terminal_01x02-conn" description=""/>
+      <property name="LCSC" value="C409115"/>
+      <property name="Sheetname" value="picoU4XBB_spindle"/>
+      <property name="Sheetfile" value="PicoU4XBB_spindle.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_spindle/" tstamps="/00000000-0000-0000-0000-00006101202c/"/>
+      <tstamps>00000000-0000-0000-0000-000063eaf499</tstamps>
+    </comp>
+    <comp ref="U17">
+      <value>LM358D</value>
+      <footprint>phils-ics:SO08</footprint>
+      <fields>
+        <field name="LCSC">C7950</field>
+      </fields>
+      <libsource lib="phils-ICs" part="LM358D" description=""/>
+      <property name="LCSC" value="C7950"/>
+      <property name="Sheetname" value="picoU4XBB_spindle"/>
+      <property name="Sheetfile" value="PicoU4XBB_spindle.kicad_sch"/>
+      <sheetpath names="/picoU4XBB_spindle/" tstamps="/00000000-0000-0000-0000-00006101202c/"/>
+      <tstamps>00000000-0000-0000-0000-00006102590a 00000000-0000-0000-0000-000061024838 00000000-0000-0000-0000-000061023036</tstamps>
+    </comp>
+    <comp ref="M2">
+      <value>WIZ820io</value>
+      <footprint>phils-modules:wiz820io</footprint>
+      <libsource lib="phils-modules-new" part="WIZ820io" description=""/>
+      <property name="Sheetname" value="w5500.kicad_sch"/>
+      <property name="Sheetfile" value="w5500.kicad_sch"/>
+      <sheetpath names="/w5500.kicad_sch/" tstamps="/ca64fce2-3867-4b1b-bdc9-865af76de0bc/"/>
+      <tstamps>2290e1d8-b74f-45a0-89a1-345a2d1f7690</tstamps>
+    </comp>
+    <comp ref="R52">
+      <value>4K7</value>
+      <footprint>phils-ics:r_0805</footprint>
+      <fields>
+        <field name="LCSC">C17530 </field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C17530 "/>
+      <property name="Sheetname" value="w5500.kicad_sch"/>
+      <property name="Sheetfile" value="w5500.kicad_sch"/>
+      <sheetpath names="/w5500.kicad_sch/" tstamps="/ca64fce2-3867-4b1b-bdc9-865af76de0bc/"/>
+      <tstamps>65f2a40d-8d77-45dd-ae0a-62a24fe64c3b</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C_Polarized_Small">
+      <description>Polarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_PMOS_GSD">
+      <description>P-MOSFET transistor, gate/source/drain</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_GSD</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AMS1117CD-5.0">
+      <description>1A Low Dropout regulator, positive, 5.0V fixed output, TO-252</description>
+      <docs>http://www.advanced-monolithic.com/pdf/ds1117.pdf</docs>
+      <footprints>
+        <fp>TO?252*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AMS1117CD-5.0</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-3_TabPin2</field>
+        <field name="Datasheet">http://www.advanced-monolithic.com/pdf/ds1117.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="phils-ICs" part="74HCT595">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HCT595</field>
+      </fields>
+      <pins>
+        <pin num="1" name="QB" type="output"/>
+        <pin num="2" name="QC" type="output"/>
+        <pin num="3" name="QD" type="output"/>
+        <pin num="4" name="QE" type="output"/>
+        <pin num="5" name="QF" type="output"/>
+        <pin num="6" name="QG" type="output"/>
+        <pin num="7" name="GH" type="output"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="SQH" type="output"/>
+        <pin num="10" name="~{RST}" type="input"/>
+        <pin num="11" name="SCK" type="input"/>
+        <pin num="12" name="LCK" type="input"/>
+        <pin num="13" name="~{OE}" type="input"/>
+        <pin num="14" name="A" type="input"/>
+        <pin num="15" name="QA" type="output"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="phils-ICs" part="74LVC1G32DBV">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LVC1G32DBV</field>
+        <field name="LCSC">C12517 </field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="bidirectional"/>
+        <pin num="2" name="B" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="Y" type="bidirectional"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="phils-ICs" part="EL817SEL357N">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">EL817SEL357N</field>
+        <field name="LCSC">C29981 </field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="EMIT" type="passive"/>
+        <pin num="4" name="COL" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="phils-ICs" part="FM24CLxxx">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FM24CLxxx</field>
+        <field name="LCSC">C31082 </field>
+      </fields>
+      <pins>
+        <pin num="4" name="VSS" type="power_in"/>
+        <pin num="5" name="SDA" type="bidirectional"/>
+        <pin num="6" name="SCL" type="bidirectional"/>
+        <pin num="7" name="WP" type="bidirectional"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="phils-ICs" part="LM358D">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM358D</field>
+        <field name="LCSC">C7950 (multiple)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="output"/>
+        <pin num="2" name="-IN" type="input"/>
+        <pin num="3" name="+IN" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+IN" type="input"/>
+        <pin num="6" name="-IN" type="input"/>
+        <pin num="7" name="OUT" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="phils-ICs" part="ULN2003AD">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ULN2003AD</field>
+        <field name="LCSC">C7512 (multiple)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I1" type="input"/>
+        <pin num="2" name="I2" type="input"/>
+        <pin num="3" name="I3" type="input"/>
+        <pin num="4" name="I4" type="input"/>
+        <pin num="5" name="I5" type="input"/>
+        <pin num="6" name="I6" type="input"/>
+        <pin num="7" name="I7" type="input"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="CD+" type="passive"/>
+        <pin num="10" name="O7" type="open_collector"/>
+        <pin num="11" name="O6" type="open_collector"/>
+        <pin num="12" name="O5" type="open_collector"/>
+        <pin num="13" name="O4" type="open_collector"/>
+        <pin num="14" name="O3" type="open_collector"/>
+        <pin num="15" name="O2" type="open_collector"/>
+        <pin num="16" name="O1" type="open_collector"/>
+      </pins>
+    </libpart>
+    <libpart lib="phils-connectors" part="MicroSD-MGnd">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">MicroSD-MGnd</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+        <pin num="3" name="3" type="input"/>
+        <pin num="4" name="4" type="input"/>
+        <pin num="5" name="5" type="input"/>
+        <pin num="6" name="6" type="input"/>
+        <pin num="7" name="7" type="input"/>
+        <pin num="8" name="8" type="input"/>
+        <pin num="MP1" name="MP1" type="input"/>
+        <pin num="MP2" name="MP2" type="input"/>
+        <pin num="MP3" name="MP3" type="input"/>
+        <pin num="MP4" name="MP4" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="phils-misc" part="C-USC0603-teensy_4.1x211-eagle-import">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-USC0603-teensy_4.1x211-eagle-import</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="phils-misc" part="JUMPER-SMT_3_NO_NO-SILK">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">JUMPER-SMT_3_NO_NO-SILK</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="phils-misc" part="R-US_R0603-teensy_4.1x211-eagle-import">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-US_R0603-teensy_4.1x211-eagle-import</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="phils-modules" part="Pico_no_prog">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Pico_no_prog</field>
+        <field name="Footprint">RPi_Pico:RPi_Pico_SMD_TH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GPIO0" type="bidirectional"/>
+        <pin num="2" name="GPIO1" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="GPIO2" type="bidirectional"/>
+        <pin num="5" name="GPIO3" type="bidirectional"/>
+        <pin num="6" name="GPIO4" type="bidirectional"/>
+        <pin num="7" name="GPIO5" type="bidirectional"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="GPIO6" type="bidirectional"/>
+        <pin num="10" name="GPIO7" type="bidirectional"/>
+        <pin num="11" name="GPIO8" type="bidirectional"/>
+        <pin num="12" name="GPIO9" type="bidirectional"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="GPIO10" type="bidirectional"/>
+        <pin num="15" name="GPIO11" type="bidirectional"/>
+        <pin num="16" name="GPIO12" type="bidirectional"/>
+        <pin num="17" name="GPIO13" type="bidirectional"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="GPIO14" type="bidirectional"/>
+        <pin num="20" name="GPIO15" type="bidirectional"/>
+        <pin num="21" name="GPIO16" type="bidirectional"/>
+        <pin num="22" name="GPIO17" type="bidirectional"/>
+        <pin num="23" name="GND" type="power_in"/>
+        <pin num="24" name="GPIO18" type="bidirectional"/>
+        <pin num="25" name="GPIO19" type="bidirectional"/>
+        <pin num="26" name="GPIO20" type="bidirectional"/>
+        <pin num="27" name="GPIO21" type="bidirectional"/>
+        <pin num="28" name="GND" type="power_in"/>
+        <pin num="29" name="GPIO22" type="bidirectional"/>
+        <pin num="30" name="RUN" type="input"/>
+        <pin num="31" name="GPIO26_ADC0" type="bidirectional"/>
+        <pin num="32" name="GPIO27_ADC1" type="bidirectional"/>
+        <pin num="33" name="AGND" type="power_in"/>
+        <pin num="34" name="GPIO28_ADC2" type="bidirectional"/>
+        <pin num="35" name="ADC_VREF" type="power_in"/>
+        <pin num="36" name="3V3" type="power_out"/>
+        <pin num="37" name="3V3_EN" type="input"/>
+        <pin num="38" name="GND" type="bidirectional"/>
+        <pin num="39" name="VSYS" type="power_out"/>
+        <pin num="40" name="VBUS" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="phils-modules" part="async_daughter">
+      <description>Generic connector, single row, 01x05</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">async_daughter</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXen" type="passive"/>
+        <pin num="2" name="TX" type="passive"/>
+        <pin num="3" name="RX" type="passive"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="Gnd" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="phils-modules" part="i2c_daughter">
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">i2c_daughter</field>
+      </fields>
+      <pins>
+        <pin num="1" name="HLT" type="output"/>
+        <pin num="2" name="3V3" type="power_in"/>
+        <pin num="3" name="STRB" type="bidirectional"/>
+        <pin num="4" name="SDA" type="bidirectional"/>
+        <pin num="5" name="SCL" type="input"/>
+        <pin num="6" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="phils-modules-new" part="WIZ820io">
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">WIZ820io</field>
+      </fields>
+      <pins>
+        <pin num="1" name="INT" type="output"/>
+        <pin num="2" name="CS" type="input"/>
+        <pin num="3" name="SCLK" type="input"/>
+        <pin num="4" name="MOSI" type="input"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="3V3" type="power_in"/>
+        <pin num="9" name="3V3" type="power_in"/>
+        <pin num="10" name="NC" type="no_connect"/>
+        <pin num="11" name="RST" type="input"/>
+        <pin num="12" name="MISO" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="picoCNC-rescue" part="BSS138-transistors">
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138-transistors</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="picoCNC-rescue" part="C_Small-device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="picoCNC-rescue" part="Conn_01x02-conn">
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02-conn</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="picoCNC-rescue" part="Conn_01x03-conn">
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03-conn</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="picoCNC-rescue" part="Conn_01x04-conn">
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04-conn</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="picoCNC-rescue" part="Conn_02x04_Odd_Even-conn">
+      <footprints>
+        <fp>Connector*:*2x??x*mm*</fp>
+        <fp>Connector*:*2x???Pitch*</fp>
+        <fp>Pin_Header_Straight_2X*</fp>
+        <fp>Pin_Header_Angled_2X*</fp>
+        <fp>Socket_Strip_Straight_2X*</fp>
+        <fp>Socket_Strip_Angled_2X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x04_Odd_Even-conn</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="picoCNC-rescue" part="GS2-conn">
+      <footprints>
+        <fp>GS*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">GS2-conn</field>
+        <field name="Footprint">Connectors:GS2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G1" type="passive"/>
+        <pin num="2" name="G2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="picoCNC-rescue" part="MMBT3904-transistors">
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MMBT3904-transistors</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="picoCNC-rescue" part="POT_TRIM-device">
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT_TRIM-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="picoCNC-rescue" part="R_Small-device">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="picoCNC-rescue" part="SW_SPST-switches">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST-switches</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="picoCNC-rescue" part="Screw_Terminal_01x02-conn">
+      <footprints>
+        <fp>Connector*Terminal*Block*:*</fp>
+        <fp>TerminalBlock*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02-conn</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>D:/Documents/kicad/lib6/Device.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>D:/Documents/kicad/lib6/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="phils-ICs">
+      <uri>D:/Documents/kicad/lib6/phils-ICs.kicad_sym</uri>
+    </library>
+    <library logical="phils-connectors">
+      <uri>D:/Documents/kicad/lib6/phils-connectors.kicad_sym</uri>
+    </library>
+    <library logical="phils-misc">
+      <uri>D:/Documents/kicad/lib6/phils-misc.kicad_sym</uri>
+    </library>
+    <library logical="phils-modules">
+      <uri>D:/Documents/kicad/lib6/phils-modules.kicad_sym</uri>
+    </library>
+    <library logical="phils-modules-new">
+      <uri>D:/Documents/kicad/lib6/phils-modules-new.kicad_sym</uri>
+    </library>
+    <library logical="picoCNC-rescue">
+      <uri>D:\Documents\kicad\PicoU4XBB\v1.52-eth/picoCNC-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="4" pintype="input"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="M1" pin="2" pinfunction="3V3" pintype="power_in"/>
+      <node ref="M2" pin="8" pinfunction="3V3" pintype="power_in"/>
+      <node ref="M2" pin="9" pinfunction="3V3" pintype="power_in"/>
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q4" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R19" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R20" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R37" pin="1" pintype="passive"/>
+      <node ref="R38" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R45" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R46" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R47" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R48" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R52" pin="2" pintype="passive"/>
+      <node ref="U13" pin="36" pinfunction="3V3" pintype="power_out"/>
+      <node ref="U18" pin="8" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="U11" pin="5" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U13" pin="39" pinfunction="VSYS" pintype="power_out"/>
+      <node ref="U14" pin="10" pinfunction="~{RST}" pintype="input"/>
+      <node ref="U14" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U15" pin="10" pinfunction="~{RST}" pintype="input"/>
+      <node ref="U15" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U16" pin="10" pinfunction="~{RST}" pintype="input"/>
+      <node ref="U16" pin="16" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="3" name="+12V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="TR1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VI" pintype="power_in"/>
+      <node ref="U17" pin="8" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="4" name="AUX0">
+      <node ref="J13" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U12" pin="3" pinfunction="I3" pintype="input"/>
+      <node ref="U16" pin="15" pinfunction="QA" pintype="output"/>
+    </net>
+    <net code="5" name="AUX0V">
+      <node ref="R43" pin="1" pintype="passive"/>
+      <node ref="TR10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U12" pin="14" pinfunction="O3" pintype="open_collector"/>
+    </net>
+    <net code="6" name="AUX1">
+      <node ref="J13" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U12" pin="2" pinfunction="I2" pintype="input"/>
+      <node ref="U16" pin="1" pinfunction="QB" pintype="output"/>
+    </net>
+    <net code="7" name="AUX1V">
+      <node ref="R44" pin="1" pintype="passive"/>
+      <node ref="TR11" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U12" pin="15" pinfunction="O2" pintype="open_collector"/>
+    </net>
+    <net code="8" name="AUX2">
+      <node ref="J13" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R39" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U16" pin="2" pinfunction="QC" pintype="output"/>
+    </net>
+    <net code="9" name="AUX2PWM">
+      <node ref="R39" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R40" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U12" pin="1" pinfunction="I1" pintype="input"/>
+    </net>
+    <net code="10" name="AUX2V">
+      <node ref="R36" pin="1" pintype="passive"/>
+      <node ref="TR12" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U12" pin="16" pinfunction="O1" pintype="open_collector"/>
+    </net>
+    <net code="11" name="AUX3">
+      <node ref="J13" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U16" pin="3" pinfunction="QD" pintype="output"/>
+    </net>
+    <net code="12" name="AUX4">
+      <node ref="J14" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U16" pin="4" pinfunction="QE" pintype="output"/>
+    </net>
+    <net code="13" name="AUX5">
+      <node ref="J14" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U16" pin="5" pinfunction="QF" pintype="output"/>
+    </net>
+    <net code="14" name="AUX6">
+      <node ref="J14" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U16" pin="6" pinfunction="QG" pintype="output"/>
+    </net>
+    <net code="15" name="AUX7">
+      <node ref="J14" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="JP4" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="16" name="CYST">
+      <node ref="U13" pin="11" pinfunction="GPIO8" pintype="bidirectional"/>
+      <node ref="U8" pin="4" pinfunction="COL" pintype="passive"/>
+    </net>
+    <net code="17" name="DIRA">
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="TR16" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U14" pin="7" pinfunction="GH" pintype="output"/>
+    </net>
+    <net code="18" name="DIRX">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="TR3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U14" pin="4" pinfunction="QE" pintype="output"/>
+    </net>
+    <net code="19" name="DIRY">
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="TR5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U14" pin="5" pinfunction="QF" pintype="output"/>
+    </net>
+    <net code="20" name="DIRZ">
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="TR14" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U14" pin="6" pinfunction="QG" pintype="output"/>
+    </net>
+    <net code="21" name="DOOR">
+      <node ref="U13" pin="12" pinfunction="GPIO9" pintype="bidirectional"/>
+      <node ref="U7" pin="4" pinfunction="COL" pintype="passive"/>
+    </net>
+    <net code="22" name="FHOLD">
+      <node ref="U13" pin="10" pinfunction="GPIO7" pintype="bidirectional"/>
+      <node ref="U9" pin="4" pinfunction="COL" pintype="passive"/>
+    </net>
+    <net code="23" name="FLOOD">
+      <node ref="J10" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U12" pin="4" pinfunction="I4" pintype="input"/>
+      <node ref="U15" pin="7" pinfunction="GH" pintype="output"/>
+    </net>
+    <net code="24" name="FLOODV">
+      <node ref="R41" pin="1" pintype="passive"/>
+      <node ref="TR8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U12" pin="13" pinfunction="O4" pintype="open_collector"/>
+    </net>
+    <net code="25" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J10" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J10" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J10" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J12" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J13" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J13" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J13" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J13" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J14" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J14" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J14" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J14" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J15" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J17" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="6" pintype="input"/>
+      <node ref="J2" pin="MP1" pinfunction="MP1" pintype="input"/>
+      <node ref="J2" pin="MP2" pinfunction="MP2" pintype="input"/>
+      <node ref="J2" pin="MP3" pinfunction="MP3" pintype="input"/>
+      <node ref="J2" pin="MP4" pinfunction="MP4" pintype="input"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="5" pinfunction="Gnd" pintype="power_in"/>
+      <node ref="M1" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="M2" pin="5" pinfunction="GND" pintype="power_out"/>
+      <node ref="M2" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="M2" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="Q5" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R18" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="TR1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="TR13" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="TR15" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="TR2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="TR24" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="TR29" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="TR4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U10" pin="3" pinfunction="EMIT" pintype="passive"/>
+      <node ref="U11" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U12" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U13" pin="13" pinfunction="GND" pintype="power_in"/>
+      <node ref="U13" pin="18" pinfunction="GND" pintype="power_in"/>
+      <node ref="U13" pin="23" pinfunction="GND" pintype="power_in"/>
+      <node ref="U13" pin="28" pinfunction="GND" pintype="power_in"/>
+      <node ref="U13" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U13" pin="33" pinfunction="AGND" pintype="power_in"/>
+      <node ref="U13" pin="38" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U13" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U14" pin="13" pinfunction="~{OE}" pintype="input"/>
+      <node ref="U14" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U15" pin="13" pinfunction="~{OE}" pintype="input"/>
+      <node ref="U15" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U16" pin="13" pinfunction="~{OE}" pintype="input"/>
+      <node ref="U16" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U17" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="U18" pin="4" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U18" pin="7" pinfunction="WP" pintype="bidirectional"/>
+      <node ref="U2" pin="3" pinfunction="EMIT" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="EMIT" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="EMIT" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="EMIT" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="EMIT" pintype="passive"/>
+      <node ref="U7" pin="3" pinfunction="EMIT" pintype="passive"/>
+      <node ref="U8" pin="3" pinfunction="EMIT" pintype="passive"/>
+      <node ref="U9" pin="3" pinfunction="EMIT" pintype="passive"/>
+    </net>
+    <net code="26" name="GNDA">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J17" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="TR17" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="TR18" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="TR19" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="TR20" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="TR21" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="TR22" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="TR25" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="TR26" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="TR27" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="TR28" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="27" name="HITXV">
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="28" name="HVRX">
+      <node ref="J8" pin="3" pinfunction="RX" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="29" name="HVTX">
+      <node ref="J8" pin="2" pinfunction="TX" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="30" name="HVTXEN">
+      <node ref="J8" pin="1" pinfunction="TXen" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="31" name="KPSTR">
+      <node ref="JP2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U13" pin="31" pinfunction="GPIO26_ADC0" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="LIMA">
+      <node ref="U13" pin="5" pinfunction="GPIO3" pintype="bidirectional"/>
+      <node ref="U2" pin="4" pinfunction="COL" pintype="passive"/>
+    </net>
+    <net code="33" name="LIMX">
+      <node ref="U13" pin="9" pinfunction="GPIO6" pintype="bidirectional"/>
+      <node ref="U5" pin="4" pinfunction="COL" pintype="passive"/>
+    </net>
+    <net code="34" name="LIMY">
+      <node ref="U13" pin="7" pinfunction="GPIO5" pintype="bidirectional"/>
+      <node ref="U4" pin="4" pinfunction="COL" pintype="passive"/>
+    </net>
+    <net code="35" name="LIMZ">
+      <node ref="U13" pin="6" pinfunction="GPIO4" pintype="bidirectional"/>
+      <node ref="U3" pin="4" pinfunction="COL" pintype="passive"/>
+    </net>
+    <net code="36" name="MIST">
+      <node ref="J10" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U12" pin="5" pinfunction="I5" pintype="input"/>
+      <node ref="U15" pin="6" pinfunction="QG" pintype="output"/>
+    </net>
+    <net code="37" name="MISTV">
+      <node ref="R42" pin="1" pintype="passive"/>
+      <node ref="TR9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U12" pin="12" pinfunction="O5" pintype="open_collector"/>
+    </net>
+    <net code="38" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(C9-Pad1)">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="U17" pin="3" pinfunction="+IN" pintype="input"/>
+    </net>
+    <net code="40" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R49" pin="2" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R51" pin="2" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(J11-Pad1)">
+      <node ref="J11" pin="1" pinfunction="G1" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(JP1-Pad2)">
+      <node ref="JP1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R18" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U11" pin="1" pinfunction="A" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="Net-(M1-Pad3)">
+      <node ref="JP2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="M1" pin="3" pinfunction="STRB" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="Net-(Q4-Pad2)">
+      <node ref="JP3" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(Q5-Pad1)">
+      <node ref="Q5" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TR18" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(R9-Pad2)">
+      <node ref="R9" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TR19" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(R11-Pad1)">
+      <node ref="R11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TR20" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(R11-Pad2)">
+      <node ref="R11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(R12-Pad1)">
+      <node ref="R12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TR21" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(R12-Pad2)">
+      <node ref="R12" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(R13-Pad1)">
+      <node ref="R13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TR22" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(R13-Pad2)">
+      <node ref="R13" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(R14-Pad1)">
+      <node ref="R14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TR25" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(R14-Pad2)">
+      <node ref="R14" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U7" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(R15-Pad1)">
+      <node ref="R15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TR26" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(R15-Pad2)">
+      <node ref="R15" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U8" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(R16-Pad1)">
+      <node ref="R16" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TR27" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(R16-Pad2)">
+      <node ref="R16" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U9" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(R17-Pad1)">
+      <node ref="R17" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TR28" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(R17-Pad2)">
+      <node ref="R17" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U10" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(R22-Pad1)">
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="U14" pin="14" pinfunction="A" pintype="input"/>
+    </net>
+    <net code="68" name="Net-(R23-Pad1)">
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="U14" pin="12" pinfunction="LCK" pintype="input"/>
+    </net>
+    <net code="69" name="Net-(R24-Pad1)">
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="U14" pin="11" pinfunction="SCK" pintype="input"/>
+    </net>
+    <net code="70" name="Net-(R25-Pad1)">
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="U15" pin="14" pinfunction="A" pintype="input"/>
+    </net>
+    <net code="71" name="Net-(R26-Pad1)">
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="U15" pin="12" pinfunction="LCK" pintype="input"/>
+      <node ref="U16" pin="12" pinfunction="LCK" pintype="input"/>
+    </net>
+    <net code="72" name="Net-(R27-Pad1)">
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="U15" pin="11" pinfunction="SCK" pintype="input"/>
+      <node ref="U16" pin="11" pinfunction="SCK" pintype="input"/>
+    </net>
+    <net code="73" name="Net-(R29-Pad1)">
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="74" name="Net-(R50-Pad2)">
+      <node ref="R50" pin="2" pintype="passive"/>
+      <node ref="U17" pin="5" pinfunction="+IN" pintype="input"/>
+    </net>
+    <net code="75" name="Net-(R51-Pad1)">
+      <node ref="R51" pin="1" pintype="passive"/>
+      <node ref="U17" pin="6" pinfunction="-IN" pintype="input"/>
+      <node ref="U17" pin="7" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="76" name="Net-(RV1-Pad2)">
+      <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U17" pin="2" pinfunction="-IN" pintype="input"/>
+    </net>
+    <net code="77" name="Net-(U15-Pad9)">
+      <node ref="U15" pin="9" pinfunction="SQH" pintype="output"/>
+      <node ref="U16" pin="14" pinfunction="A" pintype="input"/>
+    </net>
+    <net code="78" name="Net-(U16-Pad7)">
+      <node ref="JP4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U16" pin="7" pinfunction="GH" pintype="output"/>
+    </net>
+    <net code="79" name="PRB">
+      <node ref="U13" pin="34" pinfunction="GPIO28_ADC2" pintype="bidirectional"/>
+      <node ref="U6" pin="4" pinfunction="COL" pintype="passive"/>
+    </net>
+    <net code="80" name="RESET">
+      <node ref="M1" pin="1" pinfunction="HLT" pintype="output"/>
+      <node ref="U10" pin="4" pinfunction="COL" pintype="passive"/>
+      <node ref="U13" pin="29" pinfunction="GPIO22" pintype="bidirectional"/>
+    </net>
+    <net code="81" name="RLYV">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="R41" pin="2" pintype="passive"/>
+      <node ref="R42" pin="2" pintype="passive"/>
+      <node ref="R43" pin="2" pintype="passive"/>
+      <node ref="R44" pin="2" pintype="passive"/>
+      <node ref="TR10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="TR11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="TR12" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="TR6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="TR7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="TR8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="TR9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U12" pin="9" pinfunction="CD+" pintype="passive"/>
+    </net>
+    <net code="82" name="RUN">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J15" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U13" pin="30" pinfunction="RUN" pintype="input"/>
+    </net>
+    <net code="83" name="RX">
+      <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U13" pin="2" pinfunction="GPIO1" pintype="bidirectional"/>
+    </net>
+    <net code="84" name="SCL">
+      <node ref="M1" pin="5" pinfunction="SCL" pintype="input"/>
+      <node ref="R19" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R38" pin="2" pintype="passive"/>
+      <node ref="U13" pin="27" pinfunction="GPIO21" pintype="bidirectional"/>
+      <node ref="U18" pin="6" pinfunction="SCL" pintype="bidirectional"/>
+    </net>
+    <net code="85" name="SDA">
+      <node ref="M1" pin="4" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="R20" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R37" pin="2" pintype="passive"/>
+      <node ref="U13" pin="26" pinfunction="GPIO20" pintype="bidirectional"/>
+      <node ref="U18" pin="5" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="86" name="SPDI">
+      <node ref="J12" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="TR29" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U15" pin="4" pinfunction="QE" pintype="output"/>
+    </net>
+    <net code="87" name="SPEN">
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J12" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="TR23" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U11" pin="2" pinfunction="B" pintype="bidirectional"/>
+      <node ref="U12" pin="7" pinfunction="I7" pintype="input"/>
+      <node ref="U15" pin="5" pinfunction="QF" pintype="output"/>
+    </net>
+    <net code="88" name="SPENV">
+      <node ref="R35" pin="1" pintype="passive"/>
+      <node ref="TR7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U12" pin="10" pinfunction="O7" pintype="open_collector"/>
+    </net>
+    <net code="89" name="SPI1_CS">
+      <node ref="J2" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="R45" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U13" pin="17" pinfunction="GPIO13" pintype="bidirectional"/>
+    </net>
+    <net code="90" name="SPI1_RX">
+      <node ref="J2" pin="7" pinfunction="7" pintype="input"/>
+      <node ref="M2" pin="12" pinfunction="MISO" pintype="output"/>
+      <node ref="R48" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U13" pin="16" pinfunction="GPIO12" pintype="bidirectional"/>
+    </net>
+    <net code="91" name="SPI1_SCK">
+      <node ref="J2" pin="5" pinfunction="5" pintype="input"/>
+      <node ref="M2" pin="3" pinfunction="SCLK" pintype="input"/>
+      <node ref="R47" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U13" pin="14" pinfunction="GPIO10" pintype="bidirectional"/>
+    </net>
+    <net code="92" name="SPI1_TX">
+      <node ref="J2" pin="3" pinfunction="3" pintype="input"/>
+      <node ref="M2" pin="4" pinfunction="MOSI" pintype="input"/>
+      <node ref="R46" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U13" pin="15" pinfunction="GPIO11" pintype="bidirectional"/>
+    </net>
+    <net code="93" name="SPV_10">
+      <node ref="J11" pin="2" pinfunction="G2" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="TR24" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U17" pin="1" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="94" name="SPWM">
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="U13" pin="32" pinfunction="GPIO27_ADC1" pintype="bidirectional"/>
+    </net>
+    <net code="95" name="SPWMO">
+      <node ref="J12" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="R40" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R50" pin="1" pintype="passive"/>
+      <node ref="TR23" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="96" name="SR0_LCK">
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="U13" pin="25" pinfunction="GPIO19" pintype="bidirectional"/>
+    </net>
+    <net code="97" name="SR0_OUT">
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="U13" pin="22" pinfunction="GPIO17" pintype="bidirectional"/>
+    </net>
+    <net code="98" name="SR0_SCK">
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="U13" pin="24" pinfunction="GPIO18" pintype="bidirectional"/>
+    </net>
+    <net code="99" name="SR1_LCK">
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="U13" pin="21" pinfunction="GPIO16" pintype="bidirectional"/>
+    </net>
+    <net code="100" name="SR1_OUT">
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="U13" pin="19" pinfunction="GPIO14" pintype="bidirectional"/>
+    </net>
+    <net code="101" name="SR1_SCK">
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="U13" pin="20" pinfunction="GPIO15" pintype="bidirectional"/>
+    </net>
+    <net code="102" name="STENA">
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="TR16" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U15" pin="3" pinfunction="QD" pintype="output"/>
+    </net>
+    <net code="103" name="STENX">
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="TR3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U15" pin="15" pinfunction="QA" pintype="output"/>
+    </net>
+    <net code="104" name="STENY">
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="TR5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U15" pin="1" pinfunction="QB" pintype="output"/>
+    </net>
+    <net code="105" name="STENZ">
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="TR14" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U15" pin="2" pinfunction="QC" pintype="output"/>
+    </net>
+    <net code="106" name="STPA">
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="TR15" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U14" pin="3" pinfunction="QD" pintype="output"/>
+    </net>
+    <net code="107" name="STPX">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="TR2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U14" pin="15" pinfunction="QA" pintype="output"/>
+    </net>
+    <net code="108" name="STPY">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="TR4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U14" pin="1" pinfunction="QB" pintype="output"/>
+    </net>
+    <net code="109" name="STPZ">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="TR13" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U14" pin="2" pinfunction="QC" pintype="output"/>
+    </net>
+    <net code="110" name="TX">
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U13" pin="1" pinfunction="GPIO0" pintype="bidirectional"/>
+    </net>
+    <net code="111" name="TXEN">
+      <node ref="JP3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U13" pin="4" pinfunction="GPIO2" pintype="bidirectional"/>
+    </net>
+    <net code="112" name="V5">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="113" name="VACO">
+      <node ref="J10" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U11" pin="4" pinfunction="Y" pintype="bidirectional"/>
+      <node ref="U12" pin="6" pinfunction="I6" pintype="input"/>
+    </net>
+    <net code="114" name="VACOV">
+      <node ref="R34" pin="1" pintype="passive"/>
+      <node ref="TR6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U12" pin="11" pinfunction="O6" pintype="open_collector"/>
+    </net>
+    <net code="115" name="VBUS">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R49" pin="1" pintype="passive"/>
+      <node ref="U13" pin="40" pinfunction="VBUS" pintype="power_out"/>
+    </net>
+    <net code="116" name="WZ_CS">
+      <node ref="JP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="M2" pin="2" pinfunction="CS" pintype="input"/>
+    </net>
+    <net code="117" name="WZ_INT">
+      <node ref="JP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="M2" pin="1" pinfunction="INT" pintype="output"/>
+      <node ref="R52" pin="1" pintype="passive"/>
+    </net>
+    <net code="118" name="WZ_RST">
+      <node ref="JP4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="M2" pin="11" pinfunction="RST" pintype="input"/>
+    </net>
+    <net code="119" name="i12V">
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="TR17" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U10" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U7" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U8" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U9" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="120" name="unconnected-(J2-Pad1)">
+      <node ref="J2" pin="1" pinfunction="1" pintype="input+no_connect"/>
+    </net>
+    <net code="121" name="unconnected-(J2-Pad8)">
+      <node ref="J2" pin="8" pinfunction="8" pintype="input+no_connect"/>
+    </net>
+    <net code="122" name="unconnected-(M2-Pad10)">
+      <node ref="M2" pin="10" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="123" name="unconnected-(U13-Pad35)">
+      <node ref="U13" pin="35" pinfunction="ADC_VREF" pintype="power_in+no_connect"/>
+    </net>
+    <net code="124" name="unconnected-(U13-Pad37)">
+      <node ref="U13" pin="37" pinfunction="3V3_EN" pintype="input+no_connect"/>
+    </net>
+    <net code="125" name="unconnected-(U14-Pad9)">
+      <node ref="U14" pin="9" pinfunction="SQH" pintype="output+no_connect"/>
+    </net>
+    <net code="126" name="unconnected-(U16-Pad9)">
+      <node ref="U16" pin="9" pinfunction="SQH" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>

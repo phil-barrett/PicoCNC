@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "v1.0-rescue")(type "Legacy")(uri "${KIPRJMOD}/v1.0-rescue.lib")(options "")(descr ""))
+  (lib (name "picoCNC-rescue")(type "Legacy")(uri "${KIPRJMOD}/picoCNC-rescue.lib")(options "")(descr ""))
+)

@@ -1,0 +1,258 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b077d441-49f1-48de-a6ad-53217b01ccf9")
+	(paper "A4")
+	(title_block
+		(title "picoCNC ")
+		(date "2023-09-13")
+		(rev "Ver 1.55eth")
+		(company "Brookwood Design")
+	)
+	(lib_symbols)
+	(text "MIT License\n\nCopyright (c) 2023, 2025 Phillip L. Barrett\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+		(exclude_from_sim no)
+		(at 16.51 36.068 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e12c4ee9-ffc1-4407-b01b-a88c3739a2d6")
+	)
+	(sheet
+		(at 96.52 78.74)
+		(size 31.75 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00006010a2a3")
+		(property "Sheetname" "PicoU4XBB_processor"
+			(at 96.52 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PicoU4XBB_processor.kicad_sch"
+			(at 96.52 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "picoCNC"
+				(path "/b077d441-49f1-48de-a6ad-53217b01ccf9"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 41.91 78.74)
+		(size 35.56 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00006010fb27")
+		(property "Sheetname" "picoU4XBB_power"
+			(at 41.91 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "picoU4XBB_power.kicad_sch"
+			(at 41.91 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "picoCNC"
+				(path "/b077d441-49f1-48de-a6ad-53217b01ccf9"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 41.91 106.68)
+		(size 35.56 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00006010fb7f")
+		(property "Sheetname" "picoU4XBB_io"
+			(at 41.91 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "picoU4XBB_io.kicad_sch"
+			(at 41.91 123.7746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "picoCNC"
+				(path "/b077d441-49f1-48de-a6ad-53217b01ccf9"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 41.91 138.43)
+		(size 35.56 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00006010fbe5")
+		(property "Sheetname" "picoU4XBB_misc"
+			(at 41.91 137.7184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "picoU4XBB_misc.kicad_sch"
+			(at 41.91 155.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "picoCNC"
+				(path "/b077d441-49f1-48de-a6ad-53217b01ccf9"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 96.52 106.68)
+		(size 33.02 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00006101202c")
+		(property "Sheetname" "picoU4XBB_spindle"
+			(at 96.52 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PicoU4XBB_spindle.kicad_sch"
+			(at 96.52 123.7746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "picoCNC"
+				(path "/b077d441-49f1-48de-a6ad-53217b01ccf9"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 96.52 138.43)
+		(size 33.02 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ca64fce2-3867-4b1b-bdc9-865af76de0bc")
+		(property "Sheetname" "w5500.kicad_sch"
+			(at 96.52 137.7184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "w5500.kicad_sch"
+			(at 96.52 155.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "picoCNC"
+				(path "/b077d441-49f1-48de-a6ad-53217b01ccf9"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
